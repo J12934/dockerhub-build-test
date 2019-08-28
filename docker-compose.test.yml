@@ -1,0 +1,6 @@
+sut:
+  build: ./test/
+  links:
+    - app
+app:
+  build: ./
